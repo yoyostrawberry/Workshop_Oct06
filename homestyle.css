@@ -33,3 +33,7 @@ ul.navbar a{
 ul.navbar a:hover {
     color:white;
 }
+
+#my_question {
+  background-color:silver;
+}
