@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Maths puzzle</title>
+<style>
+body {
+    background-color: Pink;
+    text-align: left;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+</style>
+</head>
+<body>
+
+<h1>Maths Puzzle</h1>
+<p>1+4=5</p>
+<p>2+5=12</p>
+<p>3+6=21</p>
+<p>8+11=?</p>
+
+
+<script>
+function guessInteger() {
+ guess = document. forms[‘guessForm’][‘guessValue’].value;
+ if (guess == ‘’) {
+ document.getElementById(‘demo’).innerHTML = “Empty!”;
+ return;
+ } else {
+ guess_int = parseInt(guess);
+ if (guess_int) ==40)
+ {document.getElementById(‘demo’).innerHTML = “Right!”;} else
+ {document.getElementById(‘demo’).innerHTML = “Wrong!”;}
+ return;
+ }
+</script>
+<body>
+<form name=‘guessForm’>
+ <input name = “guessValue” class=“inputField”>
+</form>
+<button class=‘button’ onclick=‘guessInteger()’>Submit an integer</button>
+<div id=‘demo’></div>
+</body>
+
+<!-- Site navigation menu -->
+<ul class="navbar">
+ <li><a href="index.html">Home page</a>
+ <li><a href="English.html">Musings</a>
+ <li><a href="Chinese.html">My town</a>
+ <li><a href="Maths.html">Links</a>
+</ul>
+<!-- Main content -->
+
+</body>
+</html>
