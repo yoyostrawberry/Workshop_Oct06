@@ -17,9 +17,23 @@ body {
 <p>1+4=5</p>
 <p>2+5=12</p>
 <p>3+6=21</p>
-<p>5+8=?</p>
+<p>8+11=?</p>
 
 
+<script>
+function guessInteger() {
+ var guess = document. forms[‘guessForm’][‘guessValue’].value;
+ if (guess == ‘’) {
+ alert (“Empty!”);
+ return;
+ } else {
+ guess_int = parseInt(guess);
+ if (guess) ==40)
+ {alert(“Right!”);} else
+ {alert(“Wrong!”);}
+ return;
+ }
+</script>
 <body>
 <form name=‘guessForm’>
  <input name = “guessValue” class=“inputField”>
@@ -27,20 +41,13 @@ body {
 <button class=‘button’ onclick=‘guessInteger()’>Submit an integer</button>
 <div id=‘demo’></div>
 </body>
-<script>
- if (guess_int) ==45)
-{alert(“Correct”);} else {alert(“Incorrect”);}
- return;
- }
-</script>
-
 
 <!-- Site navigation menu -->
 <ul class="navbar">
  <li><a href="index.html">Home page</a>
- <li><a href="English.html">English</a>
- <li><a href="Chinese.html">Chinese</a>
- <li><a href="Maths.html">Maths</a>
+ <li><a href="English.html">Musings</a>
+ <li><a href="Chinese.html">My town</a>
+ <li><a href="Maths.html">Links</a>
 </ul>
 <!-- Main content -->
 
