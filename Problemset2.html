@@ -36,7 +36,10 @@ function guessInteger() {
  {alert(“Wrong!”);}
  return;
 }
+  function show_topic(){
   document.getElementById('demo'). innerHTML = "The answer is 45";
+  }
+
 }
  </script>
 
@@ -45,15 +48,13 @@ function guessInteger() {
 <form name=‘guessForm’>
  <input name = “guessValue” class=“inputField”>
 </form>
-<button class=‘button’ onclick=‘guessInteger()’>Submit an integer</button>
-<div id=‘demo’></div>
+<button class=‘button’ onclick=‘guessInteger()’ onclick"show_topic">Submit an integer</button>
+<div id=‘demo’> Take a guess </div>
 </body>
 
 <!-- Site navigation menu -->
 <ul class="navbar">
  <li><a href="index.html">Home page</a>
- <li><a href="English.html">English</a>
- <li><a href="Chinese.html">Chinese</a>
  <li><a href="Maths.html">Maths</a>
 </ul>
 <!-- Main content -->
